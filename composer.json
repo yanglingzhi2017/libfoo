@@ -1,0 +1,16 @@
+{
+    "name": "gangbo/foo",
+    "description": "test description",
+    "authors": [
+        {
+            "name": "gangbo",
+            "email": "daigangbo@gmail.com"
+        }
+    ],
+    "autoload": {
+         "psr-4": {
+            "gangbo\\foo\\": "src/",
+            "gangbo\\foo\\test\\": "test/"
+         }
+    }
+}
